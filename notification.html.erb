@@ -1,0 +1,25 @@
+為替と株価を配信いたします。<br>
+<br>
+<% @head_line_articles.each do |news| %>
+  円・ドル　：<%= news.exchange_rate_yen_dollar %><br>
+  円・ユーロ：<%= news.exchange_rate_yen_euro %><br>
+  個別株：<%= news.stock_price %>／株-（前日比：<%= news.compare_stock_price %>）<br>
+  日経平均株価：<%= news.nikkei_average %>円-（前日比：<%= news.compare_nikkei_average %>）<br>
+  <br>
+  ※昨日の終値となります。<br>
+  <br>
+  ＜ニューストピックス＞<br>
+  『<%= news.article_name %>』<br>
+  <br>
+  <%= news.content_name %><br>
+  URL: <a href="<%= news.url_name %>"><%= news.url_name %></a><br>
+  <br>
+  <br>
+  ＜コロナウイルス感染 世界マップ：日本経済新聞＞<br>
+  <%= news.corona_infection_status_info %><br>
+  https://vdata.nikkei.com/newsgraphics/coronavirus-world-map/<br>
+  <br>
+  <br>
+  採れたてニュースをお届け<br>
+  WBOT.COM<br>
+<% end %>
