@@ -15,7 +15,6 @@ This crawler is an Awesome mail magazine that sends the following information.<b
 
 ## Library<br>
 * Mechanize<br>
-* VCR<br>
 
 ## Run<br>
   ```
