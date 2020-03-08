@@ -1,5 +1,5 @@
 # hogehoge-crawler<br>
-This crawler is an Awesome mail magazine that sends the following information.<br>
+This app is an awesome mail magazine that sends the following information.<br>
 - Nikkei Stock Average<br>
 - Exchange rates (yen dollars, yen euros)<br>
 - Individual stock price<br>
