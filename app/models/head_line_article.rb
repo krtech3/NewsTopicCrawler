@@ -111,6 +111,6 @@ class HeadLineArticle < ApplicationRecord
       logger.info "[INFO] Send notification."
       HeadLineArticleMailer.notification(new_articles).deliver_now
     end
-      logger.info "[INFO] Complete fetch_head_line_articles."
+    logger.info "[INFO] Complete fetch_head_line_articles."
   end
 end
