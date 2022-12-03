@@ -1,4 +1,4 @@
-# hogehoge-crawler<br>
+# NewsTopicCrawler<br>
 This app is an awesome mail magazine that sends the following information.<br>
 - Nikkei Stock Average<br>
 - Exchange rates (yen dollars, yen euros)<br>
